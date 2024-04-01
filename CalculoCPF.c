@@ -62,9 +62,9 @@ printf("Digite os primeiros 9 digitos do cpf: ");
         vr2 = fmod(tt,11);
         round(vr2);
         if(vr2<2)
-           {
-               vr2=0;
-           }else
+        {
+            vr2=0;
+        }else
         {
             vr2=11-vr2;
         }
